@@ -10,8 +10,8 @@
         <th>First Name</th>
         <th>Last Name</th>
         <th>Age</th>
-        <th>Edit</th>
         <th>Update</th>
+        <th>Delete</th>
     </tr>
     </thead>
     <tbody>
@@ -25,7 +25,7 @@
         <td><?php echo $row['f_name']?></td>
         <td><?php echo $row['l_name']?></td>
         <td><?php echo $row['age']?></td>
-        <td><a href="edit.php? id=<?php echo $row['sid']?>">Edit</a></td>
+        <td><a href="edit.php? id=<?php echo $row['sid']?>">Update</a></td>
         <td><a href="delete.php? id=<?php echo $row['sid']?>">Delete</a></td>
     </tr>
     <?php
